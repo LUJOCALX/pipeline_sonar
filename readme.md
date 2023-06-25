@@ -1,4 +1,4 @@
-# Capacitação Terraform AWS (Parte 2)
+# Capacitação Terraform AWS (Parte 2).
 </h3>
 <p align="center">
  <a href="#objetivo">Objetivo</a> |
