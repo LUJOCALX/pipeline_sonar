@@ -13,6 +13,7 @@ resource "aws_instance" "ljc-ec2-nginx" {
   tags                   = merge(local.common_tags, { Name = "ec2-nginx-${each.key}" })
 }
 
+
 # Criação de 3 instancias Apache usando "for_each" recebendo informações também de ip, security groups,
 # arquivos "user_data" e tags comuns de variaveis locais e de módulos
 
